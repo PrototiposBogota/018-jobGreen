@@ -1,0 +1,20 @@
+<div draggable="true" ngClass="{{dragAreaClass}}">
+  <div class="row">
+    <div class="col-md-12 text-center" >
+      <button class="btn btn-block btn-primary" style="width: 140px;" (click)="file.click()" type="button">
+          <i class="icon-cloud-upload icons font-2xl "></i>
+        &nbsp; Subir imagen</button>
+        <input type="file"
+              #file
+              [multiple]="(maxFiles > 1)"
+              (change) = "onFileChange($event)"
+              style="display:none" />
+    </div>
+  </div>
+
+</div>
+<div class="row error" *ngIf="errors.length > 0">
+  <ul>
+    <li *ngFor="let err of errors">{{err}}</li>
+  </ul>
+</div>
