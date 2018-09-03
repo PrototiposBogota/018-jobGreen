@@ -2,8 +2,7 @@
 	
 
 	- URL:  xxxx.com
-	- Lenguaje de desarrollo : java, 
-typescript	
+	- Lenguaje de desarrollo : java
 
 	
 
@@ -13,9 +12,10 @@ typescript
 	Url xxxxxx.com
 	
 
-	Usuario:  xxxx@xxx.com
-	ContraseÒa: xxxxx
+	Usuario:  xxxx@xxx.com
+
+	Contrase√±a: xxxxx
 	
 
-	### EjecuciÛn b·sica
+	### Ejecuci√≥n b√°sica
 
